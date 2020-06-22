@@ -31,19 +31,19 @@ Other browser can have other render methods and another representation.
 ### __Part 1 of Macro Browser__
 
 This display part of macro browser shows your not optional URL input to get the video-resource. You can additionally set a preview to show a picture before playing. 
-![Graphic user interface in confluence macro browser](/blob/master/images/MacroBrowser_Part1.png)
+![Graphic user interface in confluence macro browser](/images/MacroBrowser_Part1.png)
 <br/>
 
 ### __Part 2 of Macro Browser__
 
 You can use some options like autoplay, mute and loop. If you want a specific width and height, you can specify it in pixels.<br/>
-![Graphic user interface in confluence macro browser](/blob/master/images/MacroBrowser_Part2.png)
+![Graphic user interface in confluence macro browser](/images/MacroBrowser_Part2.png)
 <br/>
 
 ### __Edit mode__
 
 The item you will see in confluence edit mode with activated parameters. You will see this in set positions.<br/>
-![View in confluence edit mode](/blob/master/images/page_editmode.png)
+![View in confluence edit mode](/images/page_editmode.png)
 
 
 <br/>
@@ -55,9 +55,9 @@ You have the opportunity to see the video in a Picture in Picture mode as you sc
 
 <table style="width:100%;border-collapse: collapse;border: 2px solid black;">
   <tr style="border: 1px solid black;border-collapse: collapse;">
-    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/blob/master/images/page_no_interaction.png"><img src="/blob/master/images/page_no_interaction.png" width="300px" alt="View in confluence with no interaction"></a></th>
-    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/blob/master/images/page_interaction.png"><img src="/blob/master/images/page_interaction.png" width="300px" alt="View in confluence with interaction"></a></th>
-    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/blob/master/images/page_pip-mode.png"><img src="/blob/master/images/page_pip-mode.png" width="300px" alt="View in confluence with browser PIP mode"></a></th>
+    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/images/page_no_interaction.png"><img src="/images/page_no_interaction.png" width="300px" alt="View in confluence with no interaction"></a></th>
+    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/images/page_interaction.png"><img src="/images/page_interaction.png" width="300px" alt="View in confluence with interaction"></a></th>
+    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/images/page_pip-mode.png"><img src="/images/page_pip-mode.png" width="300px" alt="View in confluence with browser PIP mode"></a></th>
   </tr>
 </table>
 <br/>
