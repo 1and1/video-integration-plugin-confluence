@@ -4,9 +4,7 @@
 
 ---
 
-This is an Atlassian Confluence plugin project which allows to integrate video-resources from web, in example a link like video.com/example.mp4, in a Confluence page.<br/>
-The project was created by Atlassian SDK, for further information see below. The video plays as a stream from specified web resource.<br/>
-You can use this project for your uses. Further information about licensing you will find in LICENSE file.
+This is an Atlassian Confluence plugin project which allows to integrate video-resources from web, in example a link like video.com/example.mp4, in a Confluence page.<br/> The project was created by Atlassian SDK, for further information see below. The video plays as a stream from specified web resource. You can use this project for your uses.<br/>Further information about licensing you will find in LICENSE file.
 <br/>
 
 ## Compatibility
@@ -24,27 +22,26 @@ You can use this project for your uses. Further information about licensing you 
 
 In this section you can see the main graphic user interface inside the Confluence macro browser.<br/>
 Please note that all picture in this preview was created by Firefox web-browser engine.<br/>
-The layout was managed and based by Linux gnome Debian.
+The layout was managed and based by Linux gnome Debian.<br/>
 Other browser can have other render methods and another representation.
 <br/>
 
 ### __Part 1 of Macro Browser__
 
-This display part of macro browser shows your not optional URL input to get the video-resource. You can additionally set a preview to show a picture before playing. 
-![Graphic user interface in confluence macro browser](/images/MacroBrowser_Part1.png)
+This display part of macro browser shows your not optional URL input to get the video-resource. You can additionally set a preview to show a picture before playing.
+![Graphic user interface in confluence macro browser](/blob/master/images/MacroBrowser_Part1.png)
 <br/>
 
 ### __Part 2 of Macro Browser__
 
 You can use some options like autoplay, mute and loop. If you want a specific width and height, you can specify it in pixels.<br/>
-![Graphic user interface in confluence macro browser](/images/MacroBrowser_Part2.png)
+![Graphic user interface in confluence macro browser](/blob/master/images/MacroBrowser_Part2.png)
 <br/>
 
 ### __Edit mode__
 
 The item you will see in confluence edit mode with activated parameters. You will see this in set positions.<br/>
-![View in confluence edit mode](/images/page_editmode.png)
-
+![View in confluence edit mode](/blob/master/images/page_editmode.png)
 
 <br/>
 
@@ -55,9 +52,9 @@ You have the opportunity to see the video in a Picture in Picture mode as you sc
 
 <table style="width:100%;border-collapse: collapse;border: 2px solid black;">
   <tr style="border: 1px solid black;border-collapse: collapse;">
-    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/images/page_no_interaction.png"><img src="/images/page_no_interaction.png" width="300px" alt="View in confluence with no interaction"></a></th>
-    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/images/page_interaction.png"><img src="/images/page_interaction.png" width="300px" alt="View in confluence with interaction"></a></th>
-    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/images/page_pip-mode.png"><img src="/images/page_pip-mode.png" width="300px" alt="View in confluence with browser PIP mode"></a></th>
+    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/blob/master/images/page_no_interaction.png"><img src="/blob/master/images/page_no_interaction.png" width="300px" alt="View in confluence with no interaction"></a></th>
+    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/blob/master/images/page_interaction.png"><img src="/blob/master/images/page_interaction.png" width="300px" alt="View in confluence with interaction"></a></th>
+    <th style="border: 1px solid black;border-collapse: collapse;"><a href="/blob/master/images/page_pip-mode.png"><img src="/blob/master/images/page_pip-mode.png" width="300px" alt="View in confluence with browser PIP mode"></a></th>
   </tr>
 </table>
 <br/>
@@ -95,7 +92,7 @@ __Attention__: Please make sure that you save resources in UTF-8, otherwise you 
 To build this project you need to use [SDK from Atlassian](https://developer.atlassian.com/server/framework/atlassian-sdk/downloads/).
 You can build this project immediately with `atlas-mvn package`.<br/>
 Upload the plugin after build example:
-```atlas-install-plugin --context-path "" --server localhost -p 8090 --username admin --password admin```. <br/>
+`atlas-install-plugin --context-path "" --server localhost -p 8090 --username admin --password admin`. <br/>
 Other option: You can upload the build JAR from /target directory and install in your confluence admin area.
 
 If you don't have a running local confluence for testing, you can use this:
@@ -114,4 +111,4 @@ https://developer.atlassian.com/display/DOCS/Introduction+to+the+Atlassian+Plugi
 ---
 
 Please understand that we are unable to offer support for this product.<br/>
-If you have some issues or problems, you can use this e-mail: chzanner@united-internet.de
+If you have some issues or problems, you can use this e-mail: sourcecenter@1und1.de
