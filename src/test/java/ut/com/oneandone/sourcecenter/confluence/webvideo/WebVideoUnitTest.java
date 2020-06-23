@@ -29,7 +29,7 @@ public class WebVideoUnitTest
     public void testMyName()
     {
     	WebVideo component = new WebVideo(null);
-        assertEquals("names do not match!", "Webvideo Macro",component.getName());
+        assertEquals("names do not match!", "WebVideo Macro",component.getName());
     }
     
     @Test
